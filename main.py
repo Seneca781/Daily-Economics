@@ -107,19 +107,27 @@ app.layout = html.Div(style={
         html.H2("Market Commentary", style={'textAlign': 'center', 'color': '#555'}),
         html.Div(children=[
             html.P(
-                "It's clear that the Trump trade has begun to slow down this week as the markets are cooling down and "
-                "treasury yield curves have priced in a potential tariff implementation from the Trump administration. "
-                "The Yen has also risen in value due to an increase in GDP after 2 years of underperformance in production."
+                "The once-robust momentum of the 'Trump trade' has noticeably decelerated this week as market conditions cool. "
+                "Treasury yield curves have already begun to price in the potential economic repercussions of a tariff regime "
+                "proposed by the Trump administration, signaling investor caution. Concurrently, the Japanese yen has seen a "
+                "significant appreciation, spurred by a surprising GDP expansion after two years of stagnation in industrial production—a "
+                "development that suggests a potential shift in Japan’s economic trajectory."
             ),
             html.P(
-                "Commodities also seem to be on a decline as Trump's 'Bitcoin Economy' takes over consumer sentiment. "
-                "It's important to note that despite worsening CPI numbers, the Fed seems to be confident in its ability "
-                "to read the numbers and take action accordingly in the coming months, and a slow fed rate cut pace is incoming."
+                "On the commodities front, markets are in retreat, reflecting diminished investor appetite. This decline aligns with a broader "
+                "transformation of consumer sentiment, which some are calling the rise of Trump’s 'Bitcoin Economy.' This paradigm reflects a growing "
+                "shift toward digital assets and riskier speculative investments, as traditional economic indicators face heightened uncertainty."
             ),
             html.P(
-                "To finish off, consumers seem to be in a drought of confidence within the economy due to high inflationary "
-                "numbers and high rates during the COVID pandemic, but it's important to understand that we are in a good "
-                "period at the moment."
+                "Adding to the complexity, CPI figures have shown further deterioration, highlighting persistent inflationary pressures. Despite this, "
+                "the Federal Reserve remains steadfast, expressing confidence in its ability to interpret economic data and adjust monetary policy accordingly. "
+                "Market expectations point to a measured pace of rate cuts in the near future, as the Fed looks to balance inflation management with broader "
+                "economic stability."
+            ),
+            html.P(
+                "Consumer sentiment, however, continues to struggle under the weight of high inflation and elevated interest rates, exacerbated by lingering "
+                "aftershocks of the COVID-19 pandemic. Despite these challenges, the current economic environment offers glimmers of stability. Labor markets "
+                "remain resilient, and corporate earnings have not yet shown broad signs of capitulation, suggesting that the economy is navigating a period of cautious optimism."
             )
         ], style={
             'border': '1px solid #ccc',
